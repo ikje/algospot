@@ -5,14 +5,34 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tutorial", "tutorial\tutorial.pyproj", "{5C2BADBE-9B0B-4118-B8B7-F68EF0F4985C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tutorialCpp", "tutorialCpp\tutorialCpp.vcxproj", "{EB51D3D7-811E-4A18-AA1A-3EA8FCBEA217}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
 		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5C2BADBE-9B0B-4118-B8B7-F68EF0F4985C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2BADBE-9B0B-4118-B8B7-F68EF0F4985C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5C2BADBE-9B0B-4118-B8B7-F68EF0F4985C}.Debug|Win32.ActiveCfg = Debug|Any CPU
 		{5C2BADBE-9B0B-4118-B8B7-F68EF0F4985C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2BADBE-9B0B-4118-B8B7-F68EF0F4985C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5C2BADBE-9B0B-4118-B8B7-F68EF0F4985C}.Release|Win32.ActiveCfg = Release|Any CPU
+		{EB51D3D7-811E-4A18-AA1A-3EA8FCBEA217}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{EB51D3D7-811E-4A18-AA1A-3EA8FCBEA217}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{EB51D3D7-811E-4A18-AA1A-3EA8FCBEA217}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{EB51D3D7-811E-4A18-AA1A-3EA8FCBEA217}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EB51D3D7-811E-4A18-AA1A-3EA8FCBEA217}.Debug|Win32.Build.0 = Debug|Win32
+		{EB51D3D7-811E-4A18-AA1A-3EA8FCBEA217}.Release|Any CPU.ActiveCfg = Release|Win32
+		{EB51D3D7-811E-4A18-AA1A-3EA8FCBEA217}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{EB51D3D7-811E-4A18-AA1A-3EA8FCBEA217}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{EB51D3D7-811E-4A18-AA1A-3EA8FCBEA217}.Release|Win32.ActiveCfg = Release|Win32
+		{EB51D3D7-811E-4A18-AA1A-3EA8FCBEA217}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
