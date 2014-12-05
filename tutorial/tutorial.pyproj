@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5c2badbe-9b0b-4118-b8b7-f68ef0f4985c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SHISENSHO.py</StartupFile>
+    <StartupFile>WEEKLYCALENDAR.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,10 +34,16 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BRACKETS2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="CONVERT.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ENCRYPT.py" />
+    <Compile Include="HAMMINGCODE.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HelloWorld.py" />
     <Compile Include="HOTSUMMER.py">
       <SubType>Code</SubType>
@@ -48,6 +54,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="URI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WEEKLYCALENDAR.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="WEIRD.py">
